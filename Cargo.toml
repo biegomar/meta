@@ -3,6 +3,12 @@ name = "meta"
 version = "0.1.0"
 authors = ["Marc Biegota <marc.biegota@5minds.de>"]
 edition = "2018"
+license = "MIT"
+repository = "https://github.com/biegomar/meta"
+readme = "README.md"
+description = """
+Meta, a CLI for many. Build with Rust.
+"""
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
