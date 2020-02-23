@@ -19,4 +19,10 @@ fn main() {
             println!("Setting up C# project...");
         }
     }
+
+    if let Some(matches) = _matches.subcommand_matches("rust") {
+        if matches.is_present("new") {
+            println!("Setting up Rust project...");
+        }
+    }
 }

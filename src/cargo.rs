@@ -1,3 +1,2 @@
-mod cargo;
-
-pub use self::cargo::sub;
+pub mod cli;
+pub mod commands;
