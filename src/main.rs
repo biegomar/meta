@@ -13,4 +13,10 @@ fn main() {
         .about("Meta, a CLI for many. Build with Rust.")
         .subcommands(all_commands::list())
         .get_matches();
+
+    if let Some(matches) = _matches.subcommand_matches("dotnet") {
+        if matches.is_present("new") {
+            println!("Setting up C# project...");
+        }
+    }
 }
