@@ -25,4 +25,10 @@ fn main() {
             println!("Setting up Rust project...");
         }
     }
+
+    if let Some(matches) = _matches.subcommand_matches("elixir") {
+        if matches.is_present("new") {
+            println!("Setting up Elixir project...");
+        }
+    }
 }

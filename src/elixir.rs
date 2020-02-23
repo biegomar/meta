@@ -1,3 +1,2 @@
-mod elixir;
-
-pub use self::elixir::sub;
+pub mod cli;
+pub mod commands;
