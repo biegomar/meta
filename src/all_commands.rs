@@ -1,5 +1,8 @@
 use crate::types::App;
+use crate::cargo;
 
 pub fn list() -> Vec<App> {
-    Vec::<App>::new()
+    vec! [
+            cargo::sub(),
+    ]
 }
