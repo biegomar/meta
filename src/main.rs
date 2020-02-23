@@ -2,6 +2,7 @@ mod all_commands;
 mod types;
 mod cargo;
 mod dotnet;
+mod elixir;
 
 use types::App;
 
