@@ -1,9 +1,9 @@
 mod all_commands;
 mod types;
 mod cargo;
+mod dotnet;
 
 use types::App;
-
 
 fn main() {
     let _matches = App::new("meta")
