@@ -1,1 +1,1 @@
-# Meta, a CLI for many. Build with Rust.
+# Meta, a CLI for many. Built with Rust.

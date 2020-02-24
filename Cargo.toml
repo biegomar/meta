@@ -7,7 +7,7 @@ license = "MIT"
 repository = "https://github.com/biegomar/meta"
 readme = "README.md"
 description = """
-Meta, a CLI for many. Build with Rust.
+Meta, a CLI for many. Built with Rust.
 """
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
